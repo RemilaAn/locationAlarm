@@ -14,13 +14,11 @@
 		348B12AD2562CF5A0006EF5B /* showOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348B12AC2562CF5A0006EF5B /* showOnMap.swift */; };
 		34A395832396B2250057F36D /* geoReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A395822396B2250057F36D /* geoReminder.swift */; };
 		34C5ABF91E78016E0029EFB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5ABF81E78016E0029EFB8 /* AppDelegate.swift */; };
-		34C5ABFB1E78016E0029EFB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5ABFA1E78016E0029EFB8 /* ViewController.swift */; };
 		34C5ABFE1E78016E0029EFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C5ABFC1E78016E0029EFB8 /* Main.storyboard */; };
 		34C5AC001E78016E0029EFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C5ABFF1E78016E0029EFB8 /* Assets.xcassets */; };
 		34C5AC031E78016E0029EFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C5AC011E78016E0029EFB8 /* LaunchScreen.storyboard */; };
 		34C5AC0E1E78016E0029EFB8 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5AC0D1E78016E0029EFB8 /* TestTests.swift */; };
 		34C5AC191E78016E0029EFB8 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5AC181E78016E0029EFB8 /* TestUITests.swift */; };
-		34C5AC271E7806810029EFB8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5AC261E7806810029EFB8 /* SecondViewController.swift */; };
 		34C5AC291E7808C30029EFB8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5AC281E7808C30029EFB8 /* ThirdViewController.swift */; };
 		34E8B9E62005F4A60091B888 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E8B9E52005F4A60091B888 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +49,6 @@
 		34A395822396B2250057F36D /* geoReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geoReminder.swift; sourceTree = "<group>"; };
 		34C5ABF51E78016E0029EFB8 /* Remila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remila.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C5ABF81E78016E0029EFB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34C5ABFA1E78016E0029EFB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34C5ABFD1E78016E0029EFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34C5ABFF1E78016E0029EFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C5AC021E78016E0029EFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		34C5AC141E78016E0029EFB8 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C5AC181E78016E0029EFB8 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		34C5AC1A1E78016E0029EFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34C5AC261E7806810029EFB8 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		34C5AC281E7808C30029EFB8 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		34E8B9E52005F4A60091B888 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -120,13 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				34C5ABF81E78016E0029EFB8 /* AppDelegate.swift */,
-				34C5ABFA1E78016E0029EFB8 /* ViewController.swift */,
 				34C5ABFC1E78016E0029EFB8 /* Main.storyboard */,
 				348B12AC2562CF5A0006EF5B /* showOnMap.swift */,
 				34C5ABFF1E78016E0029EFB8 /* Assets.xcassets */,
 				34C5AC011E78016E0029EFB8 /* LaunchScreen.storyboard */,
 				34C5AC041E78016E0029EFB8 /* Info.plist */,
-				34C5AC261E7806810029EFB8 /* SecondViewController.swift */,
 				34C5AC281E7808C30029EFB8 /* ThirdViewController.swift */,
 				34A395822396B2250057F36D /* geoReminder.swift */,
 				340BB4DF252D7DA400F27FA5 /* Copy-third.swift */,
@@ -304,8 +298,6 @@
 				340BB4E0252D7DA400F27FA5 /* Copy-third.swift in Sources */,
 				340BB4E2252D93F500F27FA5 /* editAlarm.swift in Sources */,
 				34A395832396B2250057F36D /* geoReminder.swift in Sources */,
-				34C5AC271E7806810029EFB8 /* SecondViewController.swift in Sources */,
-				34C5ABFB1E78016E0029EFB8 /* ViewController.swift in Sources */,
 				34C5AC291E7808C30029EFB8 /* ThirdViewController.swift in Sources */,
 				348B12AD2562CF5A0006EF5B /* showOnMap.swift in Sources */,
 				34C5ABF91E78016E0029EFB8 /* AppDelegate.swift in Sources */,
